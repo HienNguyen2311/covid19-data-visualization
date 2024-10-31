@@ -322,7 +322,7 @@ library(shinyWidgets)
 # Load the polygons table
 
 world_spdf <- readOGR( 
-  dsn= "C:\\Users\\pun23\\Documents\\uni\\data 472\\project", 
+  dsn= "world_borders_data", 
   layer="TM_WORLD_BORDERS_SIMPL-0.3",
   verbose=FALSE
 )
@@ -441,7 +441,7 @@ factorChartChoices <- list(
 ui <- tagList(
   googleChartsInit(),
   tags$head(
-    includeCSS("C:\\Users\\pun23\\Documents\\uni\\data 472\\project\\www\\styles.css")
+    includeCSS("www\\styles.css")
   ),
   navbarPage(
     title = "COVID-19",
