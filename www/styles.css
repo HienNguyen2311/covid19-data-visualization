@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+#map {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 2em;
+    right: 0;
+    top: 50px;
+}
+
+.shiny-input-radiogroup[aria-labelledby="choice-label"] {
+    left: 50%;
+    position: relative;
+    top: 2.5em;
+}
+
+.shiny-input-radiogroup[aria-labelledby="choice-label"] .radio {
+    background-color: azure;
+    display: inline;
+    padding: 1em;
+}
+
+.shiny-input-radiogroup[aria-labelledby="choice-label"] .radio input {
+    display: none;
+}
+
+.shiny-input-radiogroup[aria-labelledby="choice-label"] .radio input:checked ~ span {
+    text-decoration: underline;
+}
+
+#choice-label {
+    display: none;
+}
