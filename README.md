@@ -33,23 +33,24 @@ R, Shiny, leaflet, dplyr, ggplot2, RColorBrewer, rgdal, shinythemes, shinyWidget
 ## Screenshots
 COVID-19 Map
 
-![covid-19 map](https://github.com/user-attachments/assets/ddd6fe4e-29c9-44dd-902a-7be2a223955b)
+![covid-19 map](https://github.com/user-attachments/assets/70c73f04-ccfd-4a20-98b6-93eaea56d4f3)
 
 Vaccinations Map
 
-![vaccinations map](https://github.com/user-attachments/assets/6a3b9288-5e8b-47d5-8202-5e71596310f6)
+![vaccinations map](https://github.com/user-attachments/assets/07460824-2286-4dc1-b52a-c1a4d4e0aa8a)
 
 COVID-19 Animated Chart
 
-![covid-19 chart](https://github.com/user-attachments/assets/8d7d3849-cd6c-4eb8-b5a1-00195f87956b)
+![covid-19 chart](https://github.com/user-attachments/assets/2bd45498-e71b-4420-9b5d-2214406f9df8)
 
 Vaccinations Animated Chart
 
-![vaccinations chart](https://github.com/user-attachments/assets/dcb0500f-978e-4100-9c4d-351d063d1d24)
+![vaccinations chart](https://github.com/user-attachments/assets/c0c2e173-adbf-4123-aed3-3628c1b24b1e)
 
 Factors Chart
 
-![factors chart](https://github.com/user-attachments/assets/7f955d2c-9a46-4790-9525-0e6f6506342b)
+![factors chart](https://github.com/user-attachments/assets/efc1545a-8f7a-4bd1-9378-86ba4c37a27a)
+
 ## License
 This project is licensed under the MIT License.
 ## Project Report
