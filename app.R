@@ -17,7 +17,7 @@ table1 <- data.frame(table1)
 owid_data <- read.csv('https://covid.ourworldindata.org/data/owid-covid-data.csv')
 
 # Import continents and countries from continents.csv
-continents <- read.csv("continents.csv", na.strings = "")
+continents <- read.csv("raw_data\\continents.csv", na.strings = "")
 
 #------------------------------------------------------------------------------
 #--------------------DATA PREPARATION------------------------------------------
@@ -295,7 +295,7 @@ total_doses_administerd <- vaccines_df2[which(vaccines_df2$Country=="World"),2]
 
 # Create vaccine acceptance dataframe and merge it with factors_df for visualization used in factors chart
 
-vaccine_acceptance <- read.csv("vaccine acceptance.csv")
+vaccine_acceptance <- read.csv("raw_data\\vaccine acceptance.csv")
 
 vaccine_acceptance[which(vaccine_acceptance$Country=="US"),2] <- "United States"
 vaccine_acceptance[which(vaccine_acceptance$Country=="UK"),2] <- "United Kingdom"
